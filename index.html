@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Percentage Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="form-group">
+          <div class="input-item">
+            <span>What is</span>
+            <input type="number" id="amount" />
+            <span>%</span>
+          </div>
+          <div class="input-item">
+            <span>of</span>
+            <input type="number" id="percentage" />
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Calculate" id="calculate" />
+          <input type="text" id="result" disabled />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
